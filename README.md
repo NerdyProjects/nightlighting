@@ -20,4 +20,4 @@ The software should ...
 # Prototype
 For my prototype, I could reuse some PCBs I had lying around as leftovers from an old WS2801 project.
 It acts as a base PCB for all parts, the digispark is connected via wires.
-![img/prototype.jpg](Prototype)
+![Prototype](img/prototype.jpg)
