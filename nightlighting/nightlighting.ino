@@ -20,7 +20,7 @@
 #define LDR_THRESHOLD 512
 #define LDR_HYSTERESIS 10
 
-/*  ADC = Ubat / 11 / 2540mV * 1024
+/*  ADC = Ubat / (10k/(10k+100k)) / 2540mV * 1024
  *  Accuracy: +/-5% (so set it rather a bit safer, also to include further µC energy usage
  */
 #define BATTERY_THRESHOLD 12000UL
